@@ -7,8 +7,8 @@
         "start_timeout": "Server nije uspio započeti na vrijeme",
         "crash_detected": "Server se zaustavio",
         "hang_detected": "hang detected",
-        "partial_hang_warn": "Due to a partial hang, this server will restart in 1 minute. Please disconnect now.",
-        "partial_hang_warn_discord": "Due to a partial hang, **%{servername}** will restart in 1 minute.",
+        "partial_hang_warn": "Zbog djelomičnog zastoja, server će se restartat za minutu. Molimo izađite sa servera.",
+        "partial_hang_warn_discord": "Zbog djelomičnog zastoja, **%{servername}** server će se restartati za minutu.",
         "schedule_reason": "restart je zakazan za %{time}",
         "schedule_warn": "Ovaj server je zakazan da se restarta za %{smart_count} minutu. Molim vas se isključitite. |||| Ovaj server ce se restartovati za %{smart_count} minuta.",
         "schedule_warn_discord": "**%{servername}** restarta se za %{smart_count} minutu. |||| **%{servername}** restarta se za %{smart_count} minuta."
@@ -38,46 +38,46 @@
     "nui_menu": {
         "misc": {
             "help_message": "txAdmin has gotten an in-game menu!\nBind [Game Settings > Key Bindings > FiveM > Open the txAdmin Menu] to try it out!",
-            "menu_not_allowed": "Your identifiers do not match any admin registered on txAdmin.\nIf you are registered on txAdmin, go to Admin Manager and make sure your identifiers are saved.",
-            "action_unauthorized": "You do not have this permission.",
-            "unknown_error": "An unknown error occurred.",
-            "not_enabled": "The txAdmin Menu is not enabled! Please check the docs for more info.",
-            "announcement_title": "Server Announcement by %{author}:",
-            "general_no_perms": "You do not have permissions for this!",
-            "dialog_empty_input": "You cannot have an empty input."
+            "menu_not_allowed": "Tvoji podatci se ne poklapaju sa registriranim adminima.\nAko ste registrirani na txAdmin-u, idi u Admin Manager i provjeri dali su tvoji podatci spremljeni.",
+            "action_unauthorized": "Nemaš permisiju.",
+            "unknown_error": "Došlo je do greške.",
+            "not_enabled": "txAdmin Menu nije uključen! Pročitajte docks za više informacija.",
+            "announcement_title": "Server Obavijest od %{author}:",
+            "general_no_perms": "Nemaš permisiju za ovo!",
+            "dialog_empty_input": "Polje ne može biti prazno."
         },
         "frozen": {
-            "froze_player": "You have frozen the player!",
-            "unfroze_player": "You have unfrozen the player!",
-            "was_frozen": "You have been frozen by a server admin!"
+            "froze_player": "Zaledio si igrača!",
+            "unfroze_player": "Odledio si igrača!",
+            "was_frozen": "Zaleđeni ste od admina!"
         },
         "common": {
-            "cancel": "Cancel",
-            "submit": "Submit",
-            "error": "An error occurred",
-            "copied": "Copied to clipboard."
+            "cancel": "Prekini",
+            "submit": "Potvrdi",
+            "error": "Dogodio se error",
+            "copied": "Kopirano u međuspremnik."
         },
         "page_main": {
             "tooltips": {
-                "tooltip_1": "Use %{key} to switch pages & the arrow keys to navigate menu items",
-                "tooltip_2": "Certain menu items have sub options which can be selected using the left & right arrow keys"
+                "tooltip_1": "Koristi %{key} da mjenjaš stranice, strelice kako bi se kretao gore dolje",
+                "tooltip_2": "Određeni menui imaju podopcije koje se mogu koristiti sa strelicama",
             },
             "player_mode": {
-                "title": "Player Mode",
+                "title": "Igrač Mod",
                 "noclip": {
                     "title": "NoClip",
-                    "label": "Fly around",
-                    "success": "NoClip enabled"
+                    "label": "Leti uokolo",
+                    "success": "NoClip uključen"
                 },
                 "godmode": {
                     "title": "God",
                     "label": "Invincible",
-                    "success": "God Mode enabled"
+                    "success": "God Mode uključen"
                 },
                 "normal": {
-                    "title": "Normal",
-                    "label": "Default mode",
-                    "success": "Returned to default player mode."
+                    "title": "Normalno",
+                    "label": "Zadani mod",
+                    "success": "Uspješno vračeno u zadani mod."
                 }
             },
             "teleport": {
@@ -85,54 +85,54 @@
                 "generic_success": "Sent you into the wormhole!",
                 "waypoint": {
                     "title": "Waypoint",
-                    "label": "Go to waypoint set",
-                    "error": "You have no waypoint set."
+                    "label": "Idi do setanog waypoint-a",
+                    "error": "Nemaš postavljen waypoint."
                 },
                 "coords": {
-                    "title": "Coords",
-                    "label": "Go to specified coords",
+                    "title": "Kordiante",
+                    "label": "Idi do specifičnih kordianata",
                     "dialog_title": "Teleport",
-                    "dialog_desc": "Provide coordinates in an x, y, z format to go through the wormhole.",
-                    "dialog_error": "Invalid coordinates. Must be in the format of: 111, 222, 33"
+                    "dialog_desc": "Navedite koordinate u x, y, z formatu.",
+                    "dialog_error": "Nevažeće koordinate. Mora biti u formatu: 111, 222, 33"
                 },
                 "back": {
-                    "title": "Back",
-                    "label": "Go back to last location",
-                    "error": "You don't have a last location to go back to!"
+                    "title": "Nazad",
+                    "label": "Vrati se na zadnju poziciju",
+                    "error": "Trenutno nemaš spremljenu zadnju poziciju!"
                 },
                 "copy": {
-                    "title": "Copy Coords",
-                    "label": "Copy coords to clipboard."
+                    "title": "Kopiraj Kordinate",
+                    "label": "Kordinate kopirane u međuspremnik."
                 }
             },
             "vehicle": {
                 "title": "Vehicle",
-                "onesync_error": "This option requires that OneSync be on for server entity handling",
-                "not_in_veh_error": "You are not currently in a vehicle!",
+                "onesync_error": "Ova opcija zahtijeva da OneSync bude uključen za rukovanje ovom opcijom",
+                "not_in_veh_error": "Trenutno niste u vozilu!",
                 "spawn": {
                     "title": "Spawn",
-                    "label": "Spawn vehicle by model name",
-                    "dialog_title": "Spawn vehicle",
-                    "dialog_desc": "Enter in the model name of the vehicle you want to spawn.",
-                    "dialog_success": "Vehicle spawned!",
-                    "dialog_error": "The vehicle model name '%{modelName}' does not exist!",
-                    "dialog_info": "Trying to spawn %{modelName}."
+                    "label": "Stvori vozilo prema modelu",
+                    "dialog_title": "Stvori vozilo",
+                    "dialog_desc": "Unesite model koji želite stvoriti.",
+                    "dialog_success": "Vozilo stvoreno!",
+                    "dialog_error": "Vozilo pod nazivom '%{modelName}' ne postoji!",
+                    "dialog_info": "Pokušavanje stvaranja %{modelName}."
                 },
                 "fix": {
-                    "title": "Fix",
-                    "label": "Fix the current vehicle",
-                    "success": "Vehicle fixed!"
+                    "title": "Popravi",
+                    "label": "Popravi trenutno vozilo",
+                    "success": "Vozilo popravljeno!"
                 },
                 "delete": {
-                    "title": "Delete",
-                    "label": "Delete the current vehicle",
-                    "success": "Vehicle deleted!"
+                    "title": "Obriši",
+                    "label": "Obriši vozilo",
+                    "success": "Vozilo obrisano!"
                 }
             },
             "heal": {
                 "title": "Heal",
                 "myself": {
-                    "title": "Myself",
+                    "title": "Sebe",
                     "label": "Restores your health",
                     "success_0": "All healed up!",
                     "success_1": "You should be feeling good now!",
@@ -140,44 +140,44 @@
                     "success_3": "Ouchies fixed!"
                 },
                 "everyone": {
-                    "title": "Everyone",
+                    "title": "Sve igrače",
                     "label": "Will heal & revive all players",
                     "success": "Healed and revived all players."
                 }
             },
             "announcement": {
-                "title": "Send Announcement",
-                "dialog_desc": "Send an announcement to all online players.",
-                "dialog_placeholder": "Your announcement...",
-                "dialog_success": "Sending the announcement."
+                "title": "Pošalji Obavijest",
+                "dialog_desc": "Pošalji obavijest svim igračima na serveru.",
+                "dialog_placeholder": "Tvoja obavijest...",
+                "dialog_success": "Slanje obavijesti."
             },
             "clear_area": {
-                "title": "Reset World Area",
-                "dialog_description": "Please enter the radius where you wish to reset entities in (0-300). This will not clear entities spawned server side",
-                "dialog_success": "Clearing area with radius of %{radius}m",
-                "dialog_error": "Invalid radius input. Try again."
+                "title": "Obriši Objekte",
+                "dialog_description": "Molim unesite radius u kojem želite da objekti budu obrisani (0-300). Ovo neće obrisati entitije koji su stvoreni u server strani",
+                "dialog_success": "Brisanje sve u radiusu od %{radius}m",
+                "dialog_error": "Nevažeči radius. Pokušaj ponovno."
             },
             "player_ids": {
-                "title": "Toggle Player IDs",
-                "alert_show": "Showing nearby player NetIDs.",
-                "alert_hide": "Hiding nearby player NetIDs."
+                "title": "Uključi ID",
+                "alert_show": "Pokaži ID igrača.",
+                "alert_hide": "Sakriji ID igrača."
             }
         },
         "page_players": {
             "misc": {
-                "online_players": "Online Players",
-                "players": "Players",
-                "search": "Search",
-                "zero_players": "No players found"
+                "online_players": "Online Igrači",
+                "players": "Igrači",
+                "search": "Pretraži",
+                "zero_players": "Igrač nije pronađen"
             },
             "sort": {
-                "label": "Sort by",
-                "distance": "Distance",
+                "label": "Sortiaj prema",
+                "distance": "Distani",
                 "id": "ID",
-                "joined_first": "Joined First",
-                "joined_last": "Joined Last",
-                "closest": "Closest",
-                "farthest": "Farthest"
+                "joined_first": "ulasku (prvom)",
+                "joined_last": "ulasku (zadnjem)",
+                "closest": "Najbližem",
+                "farthest": "Najdaljem"
             },
             "card": {
                 "health": "%{percentHealth}% health"
@@ -185,102 +185,102 @@
         },
         "player_modal": {
             "misc": {
-                "error": "An error occurred fetching this users details. The error is shown below:",
-                "target_not_found": "Was unable to find an online player with ID or an username of %{target}"
+                "error": "Nismo uspijeli dohvatiti podatke o ovome igraču. Error je prikazan ispod:",
+                "target_not_found": "Nema rezultata za %{target}"
             },
             "tabs": {
-                "actions": "Actions",
+                "actions": "Akcije",
                 "info": "Info",
                 "ids": "IDs",
-                "history": "History",
+                "history": "Povijest",
                 "ban": "Ban"
             },
             "actions": {
-                "title": "Player Actions",
-                "command_sent": "Command sent!",
+                "title": "Akcije igrača",
+                "command_sent": "Komanda poslana!",
                 "moderation": {
                     "title": "Moderation",
                     "options": {
                         "dm": "DM",
-                        "warn": "Warn",
+                        "warn": "Upozori",
                         "kick": "Kick",
-                        "set_admin": "Give Admin"
+                        "set_admin": "Daj admina"
                     },
                     "dm_dialog": {
-                        "title": "Direct Message",
-                        "description": "What is the reason for direct messaging this player?",
-                        "placeholder": "Reason...",
-                        "success": "Your DM has been sent!"
+                        "title": "Privatna poruka",
+                        "description": "Razlog slanja poruke?",
+                        "placeholder": "Razlog...",
+                        "success": "Poruka poslana!"
                     },
                     "warn_dialog": {
                         "title": "Warn",
-                        "description": "What is the reason for direct warning this player?",
-                        "placeholder": "Reason...",
-                        "success": "The player was warned!"
+                        "description": "Razlog Warna-a?",
+                        "placeholder": "Razlog...",
+                        "success": "Igrač upozoren!"
                     },
                     "kick_dialog": {
                         "title": "Kick",
-                        "description": "What is the reason for kicking this player?",
-                        "placeholder": "Reason...",
-                        "success": "The player was kicked!"
+                        "description": "Razlog kick-a?",
+                        "placeholder": "Razlog...",
+                        "success": "Igrač Kickan!"
                     }
                 },
                 "interaction": {
-                    "title": "Interaction",
+                    "title": "Interakcija",
                     "options": {
                         "heal": "Heal",
-                        "go_to": "Go to",
-                        "bring": "Bring",
-                        "spectate": "Spectate",
-                        "toggle_freeze": "Toggle Freeze"
+                        "go_to": "Idi do",
+                        "bring": "Donesi",
+                        "spectate": "Specaj",
+                        "toggle_freeze": "Zaledi"
                     },
                     "notifications": {
                         "heal_player": "Healing player",
-                        "tp_player": "Teleporting to player",
+                        "tp_player": "Teleporitanje do igrača",
                         "bring_player": "Summoning player",
-                        "spectate_failed": "Failed to resolve the target! Exiting spectate.",
-                        "spectate_yourself": "You cannot spectate yourself.",
-                        "freeze_yourself": "You cannot freeze yourself."
+                        "spectate_failed": "Došlo je do problema. Prekidan spec.",
+                        "spectate_yourself": "Ne možeš specati sebe.",
+                        "freeze_yourself": "Ne možeš zalediti sebe."
                     }
                 },
                 "troll": {
                     "title": "Troll",
                     "options": {
-                        "drunk": "Make Drunk",
-                        "fire": "Set Fire",
+                        "drunk": "Napiji",
+                        "fire": "Zapali",
                         "wild_attack": "Wild attack"
                     }
                 }
             },
             "info": {
-                "title": "Player info",
-                "session_time": "Session Time",
-                "play_time": "Play time",
-                "joined": "Joined",
-                "notes_placeholder": "Notes about this player"
+                "title": "Informacije",
+                "session_time": "Vrijeme provedeno na serveru",
+                "play_time": "Vrijeme igranja",
+                "joined": "Pridružio se",
+                "notes_placeholder": "Bilješke za igrača"
             },
             "history": {
-                "title": "Related history",
+                "title": "Povezana povijest",
                 "action_types": {
                     "warn": "WARNED",
-                    "warn_revoked": "REVOKED the WARN for",
+                    "warn_revoked": "SKINUT WARN za",
                     "ban": "BANNED",
-                    "ban_revoked": "REVOKED the BAN for",
+                    "ban_revoked": "SKINUT BAN za",
                     "whitelist": "WHITELIST",
-                    "whitelist_revoked": "REVOKED the WHITELIST for"
+                    "whitelist_revoked": "SKINUT-a WHITELIST-a za"
                 }
             },
             "ban": {
-                "title": "Ban player",
-                "reason_placeholder": "Reason",
-                "duration_placeholder": "Duration",
-                "hours": "hours",
-                "days": "days",
-                "weeks": "weeks",
-                "months": "months",
+                "title": "Banaj igrača",
+                "reason_placeholder": "Razlog",
+                "duration_placeholder": "Trajanje",
+                "hours": "sati",
+                "days": "dani",
+                "weeks": "tjedni",
+                "months": "mjeseci",
                 "permanent": "Permanent",
                 "custom": "Custom",
-                "helper_text": "Please select a duration"
+                "helper_text": "Molim odaberite trajanje"
             }
         }
     }
